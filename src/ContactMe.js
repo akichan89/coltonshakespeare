@@ -13,6 +13,7 @@ export default function ContactForm() {
     emailjs.sendForm('service_9j3398t', 'template_qjmym0u', e.target, 'user_7zJqF2BgzHn7bELuJK8cu')
       .then((result) => {
           console.log(result.text);
+          form.reset()
       }, (error) => {
           console.log(error.text);
       });
