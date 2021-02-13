@@ -2,6 +2,7 @@
 
 import React from 'react';
 import emailjs from 'emailjs-com';
+// import { Form } from 'react-advanced-form'
 
 //import './ContactUs.css';
 
@@ -13,7 +14,8 @@ export default function ContactForm() {
     emailjs.sendForm('service_9j3398t', 'template_qjmym0u', e.target, 'user_7zJqF2BgzHn7bELuJK8cu')
       .then((result) => {
           console.log(result.text);
-          form.reset()
+           
+          // this.resetForm();
       }, (error) => {
           console.log(error.text);
       });
@@ -25,12 +27,12 @@ export default function ContactForm() {
       <form className="contact-form" onSubmit={sendEmail}>
         <input type="hidden" name="from_name" />
         
-        <input type="text" name="from_email" />
+        <input type="text" placeholder="Name" name="from_email" />
        
-        <input type="email" name="message" />
+        <input type="email" placeholder="Email" name="message" />
         
-        <textarea name="message" />
-        <button type="submit" value="Send">Send</button>
+        <textarea name="message"/>
+        <button type="submit" value="Reset form">Send</button>
       </form>
     </section>
   );
