@@ -11,7 +11,7 @@ export default function ContactForm() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_9j3398t', 'template_qjmym0u', e.target, 'user_7zJqF2BgzHn7bELuJK8cu')
+    emailjs.sendForm('service_9r8meaa', 'template_qjmym0u', e.target, 'user_7zJqF2BgzHn7bELuJK8cu')
       .then((result) => {
           console.log(result.text);
            
