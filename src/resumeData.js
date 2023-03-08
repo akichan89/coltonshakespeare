@@ -7,7 +7,7 @@ let resumeData = {
     "socialLinks": [
     
         {
-            "aboutme": "Lead Data Center Technician",
+            "aboutme": "Data Center Operations Manager",
             "address": "Draper, UT",
             "website": "https://akichan89.github.io",
             "education": [
@@ -21,9 +21,9 @@ let resumeData = {
             "work": [
                 {
                     "CompanyName": "DataBank LLC (Formerlly C7 DataCenters)",
-                    "specialiaztion": "Senior Help Desk Technician",
+                    "specialiaztion": "Data Center Operations Manager",
                     "MonthOfLeaving": "Current",
-                    "YearOfLeaving": "2021",
+                    "YearOfLeaving": "Current",
                     "Achievements": "Some Achievements"
    
                 }
