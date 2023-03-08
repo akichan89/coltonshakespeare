@@ -9,7 +9,7 @@ let resumeData = {
         {
             "aboutme": "Data Center Operations Manager",
             "address": "Draper, UT",
-            "website": "https://akichan89.github.io",
+            "website": "https://coltonshakespeare.site",
             "education": [
                 {
                     "UniversityName": "test",
