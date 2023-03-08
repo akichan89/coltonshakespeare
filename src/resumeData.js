@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl": "https://ivy555.github.io/",
     "fullname": "Colton Shakespeare",
-    "role": "Lead Data Center Technician",
+    "role": "Data Center Operations Manager",
     "linkedinID": "ID",
     "roleDescription": "",
     "socialLinks": [
