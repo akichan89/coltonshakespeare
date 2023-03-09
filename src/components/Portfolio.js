@@ -25,6 +25,8 @@ export default class Porfolio extends Component {
                                                             <h5>On-Call for Emergency</h5>
                                                             <h5>Maintain and Clean Data Center Facility</h5>
                                                             <h5>Ensure All Data Is Secure</h5>
+            
+            <h5>And So Much More!!</h5>
                                                               
                                                     </div>
                                                 
